@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Controllers;
+
+use Config\Facades\Controllers\Controllers;
+use Config\Facades\Http\Request;
+use Config\Facades\Http\Response;
+
+class {{ClassName}} extends Controllers
+{
+    public function index(Request $request)
+    {
+        // Logique de base
+        return Response::json(['message' => 'Contrôleur {{ClassName}} prêt !']);
+    }
+}

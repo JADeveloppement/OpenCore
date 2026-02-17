@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Models;
+
+use Config\Facades\Models\Models;
+
+class {{ClassName}} extends Models
+{
+    /**
+     * Nom de la table associée
+     */
+    protected static string $tableName = '{{TableName}}';
+
+    /**
+    * Liste des colonnes de la table '{{TableName}}'
+    */
+    protected static array $schemaColumns = [
+        "id",
+        "created_at",
+        "created_by",
+        "updated_at",
+        "updated_by",
+        /**
+         * Colonnes supplémentaires
+         */
+    ];
+
+}

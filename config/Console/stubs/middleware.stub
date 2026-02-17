@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Middleware;
+
+use Config\Facades\Http\Request;
+use Config\Facades\Middlewares\Middleware;
+
+class {{ClassName}} implements Middleware
+{
+    /**
+     * Gère la requête entrante.
+     *
+     * @param Request $request
+     * @param callable $next
+     * @return mixed
+     */
+    public function handle(Request $request, callable $next)
+    {
+        // Logique de vérification (ex: Auth, Rôles, Headers...)
+        
+        // Si tout est OK, on passe au middleware suivant ou au contrôleur
+        return $next($request);
+    }
+}
