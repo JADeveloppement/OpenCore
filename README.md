@@ -5,6 +5,8 @@
 
 **JADCoreEngine** est un micro-framework PHP haute performance, conçu pour être ultra-léger, sans dépendances externes (`0 vendor` au cœur). Cette version **OpenCore** contient les fondations architecturales du moteur.
 
+**✨ Démo Live :** Testez la réactivité du moteur en direct sur [CoreEngine v3](https://coreengine.jadeveloppement.fr)
+
 > [!IMPORTANT]
 > Ce dépôt contient uniquement le **Cœur (Core)** du framework. Pour obtenir l'arborescence complète, le système de templates, le Starter Kit UI (Tailwind/TS) et le support Docker, rendez-vous sur [jadeveloppement.fr](https://jadeveloppement.fr).
 
